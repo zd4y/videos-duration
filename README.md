@@ -22,7 +22,7 @@ ls | videos-duration
 Or you could specify the paths with echo:
 
 ```
-echo "video1.mp4\nvideo2.mp4" | videos-duration
+echo -e "video1.mp4\nvideo2.mp4" | videos-duration
 ```
 
 Or simply running `videos-duration` and manually typing the paths and then using Ctrl+D
